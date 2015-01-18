@@ -1,0 +1,35 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *
+ * Global styles START
+ *= require ./global/plugins/font-awesome/css/font-awesome.min.css
+ *= require ./global/plugins/bootstrap/css/bootstrap.min.css
+ * Global styles END
+ *
+ * Page level plugin styles START
+ *= require ./global/plugins/fancybox/source/jquery.fancybox.css
+ *= require ./global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css
+ *= require ./global/plugins/slider-layer-slider/css/layerslider.css
+ * Page level plugin styles END
+ *
+ * Theme styles START
+ *= require ./global/css/components.css
+ *= require ./frontend/layout/css/style.css
+ *= require ./frontend/pages/css/style-shop.css
+ *= require ./frontend/pages/css/style-layer-slider.css
+ *= require ./frontend/layout/css/style-responsive.css
+ *= require ./frontend/layout/css/themes/red.css
+ *= require ./frontend/layout/css/custom.css
+ * Theme styles END
+ */
